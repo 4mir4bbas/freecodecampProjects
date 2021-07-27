@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#projects">projects</a></li>
+            <li style="margin-right:30px;"><a href="#github">github</a></li>
+        </ul>
+    </nav>
+    <header id="welcome-section">
+        <h1>Welcome</h1>
+    </header>
+    <main id="projects">
+        <section class="project-tile">
+            <p><a href="https://codepen.io/IndividualArmy/pen/jOmaEwZ" target="_blank">link </a>to my project</p>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>my <a id="profile-link" href="https://github.com/AmirAbbasBakhshipour/freecodecampProjects" target="_blank">github</a> profile</p>
+    </footer>
+</body>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    #navbar {
+        position: fixed;
+        height: 50px;
+        width: 100vw;
+        background-color:rgb(243, 118, 118);
+    }
+    ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+    a{
+        text-decoration: none;
+        color: yellow;
+    }
+    li {
+        margin: 8px;
+        list-style-type: none;
+    }
+    #welcome-section {
+        margin-top: 50px;
+        height: 100vh;
+        background-color: rgb(147, 147, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #projects {
+        background-color: gray;
+    }
+    #footer {
+        background-color: rgb(99, 192, 99);
+    }
+    @media(min-width: 1000px){
+        #projects {
+            height: 500px;
+        }
+        #footer {
+            height: 100px;
+        }
+    }
+</style>
+</html>
