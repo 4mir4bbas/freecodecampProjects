@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header><h1>Documentation</h1></header>
+        <a class="nav-link" href="#C++">C++</a>
+        <a class="nav-link" href="#Python">Python</a>
+        <a class="nav-link" href="#Java">Java</a>
+        <a class="nav-link" href="#Ruby">Ruby</a>
+        <a class="nav-link" href="#Javascript">Javascript</a>
+    </nav>
+    <main id="main-doc">
+        <section id="C++" class="main-section">
+            <header><h1>C++</h1></header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, qui.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci iure repellendus voluptatem itaque voluptas eaque!</p>
+            <code>Lorem ipsum dolor sit amet.</code>
+            <ul>
+                <li>one</li>
+                <li>two</li>
+            </ul>
+        </section>
+        <section id="Python" class="main-section">
+            <header><h1>Python</h1></header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto distinctio at?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur laudantium voluptas officiis.</p>
+            <code>Lorem ipsum dolor sit amet.</code>
+            <ul>
+                <li>one</li>
+                <li>two</li>
+            </ul>
+        </section>
+        <section id="Java" class="main-section">
+            <header><h1>Java</h1></header>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, veniam sunt.</p>
+            <code>Lorem ipsum dolor sit amet.</code>
+            <ul>
+                <li>one</li>
+                <li>two</li>
+            </ul>
+        </section>
+        <section id="Ruby" class="main-section">
+            <header><h1>Ruby</h1></header>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit reiciendis nam dolore voluptatum quas cumque facere sapiente aspernatur asperiores dicta. Dignissimos tempore tenetur doloremque omnis magnam temporibus?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <code>Lorem ipsum dolor sit amet.</code>
+            <ul>
+                <li>one</li>
+                <li>two</li>
+            </ul>
+        </section>
+        <section id="Javascript" class="main-section">
+            <header><h1>Javascript</h1></header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto eaque tenetur quisquam vero?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum!</p>
+            <code>Lorem ipsum dolor sit amet.</code>
+            <ul>
+                <li>one</li>
+                <li>two</li>
+            </ul>
+        </section>
+    </main>
+</body>
+<style>
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%; 
+}
+#navbar {
+    display:flex;
+    flex-direction: column;
+    background-color: yellow;
+    width: 20%;
+    height: 100%;
+    border-right: 2px solid black;
+    position: fixed;
+    min-width: 290px;
+
+}
+#main-doc {
+    background-color: blue;
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+    border-left: 2px solid black;
+    padding-left: 10px;
+}
+@media(max-width: 1024px){
+    #navbar {
+        background-color: red;
+        position: none;
+    }
+}
+</style>
+</html>
