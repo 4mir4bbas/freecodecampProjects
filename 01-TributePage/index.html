@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribue Page</title>
+</head>
+<body>
+    <main id="main">
+        <header id="header">
+            <h1 id="title">Lorem, ipsum dolor.</h1>
+        </header>
+        <div id="content">
+            <div id="img-div">
+                <img id="image" src="./nature-1370825.jpg" alt="image">
+
+                <div id="image-caption">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, cupiditate?
+                </div>
+            </div>
+            <p id="tribute-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ullam, mollitia non alias voluptates distinctio atque quas culpa accusantium nihil soluta aliquid error excepturi quod laborum amet laboriosam nemo? Laboriosam eligendi molestiae saepe illum, necessitatibus mollitia natus architecto tenetur omnis esse et ullam tempora iusto inventore dicta doloremque ex quia.
+            </p>
+        </div>
+        <footer id="footer">
+            To visit other works click 
+            <a href="#" target="_blank">here</a>
+        </footer>
+    </main>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            background-color: rgb(75, 75, 75);
+            color: white;
+        }
+        #main {
+            display: grid;
+            grid-template-rows: 5rem 90rem 5rem;
+            justify-items: center;
+            align-items: center;
+            grid-row-gap: 0px;
+            
+        }
+        #header {
+            background-color: rgb(255, 130, 130);
+            /* height: 20%; */
+        }
+        #content {
+            background-color:aqua;
+            display: grid;
+            grid-template-rows: 55% 45%;
+            justify-items: center;
+        
+        }
+        #footer {
+            background-color: rgb(61, 97, 61);
+        }
+        #img-div {
+            background-color: rgb(153, 58, 58);
+            display: grid;
+            grid-template-rows: 90% 10%;
+            /* justify-items: center; */
+            /* align-items: start; */
+            
+        }
+        #image {
+            background-color: rgb(109, 109, 248);
+            width: 80vw;
+            justify-self: center;
+            /* padding: 1em; */
+        }
+        
+        #image-caption {
+            background-color: blue;
+            justify-self: center;
+            align-self: start;
+        }
+        #tribute-info {
+            background-color: rgb(94, 90, 90);
+            justify-self: center;
+            /* padding-left: 20em;
+            padding-right: 20em;
+            padding-top: 5em; */
+        }
+    </style>
+</body>
+</html>

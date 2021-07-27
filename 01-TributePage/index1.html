@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page (Flex)</title>
+</head>
+<body>
+    <main id="main">
+        <header id="header">
+          <h1 id="title">Lorem, ipsum dolor.</h1>
+        </header>
+        <div id="content">
+          <div id="img-div">
+            <div id="img">
+              <img id="image" src="https://images.unsplash.com/photo-1625148139339-118fa09c560b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNzAxNzg4MQ&ixlib=rb-1.2.1&q=80&w=400" alt="image">
+            </div>
+            <div id="img-caption">
+              Lorem ipsum dolor sit, amet consectetur adipisicing.
+            </div>
+          </div>
+          <div id="tribute-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium a excepturi asperiores harum. Numquam dolorem facere, animi sapiente aperiam ad omnis nulla velit sunt aliquid quaerat similique, quos, quidem culpa assumenda neque porro labore nisi itaque. Expedita dicta tenetur temporibus sapiente porro pariatur fuga, dolorem quibusdam debitis architecto atque voluptatem.
+          </div>
+        </div>
+        <div id="footer">
+          for more information click <a id="tribute-link" href="https://google.com/" target="_blank">here</a>
+        </div>
+      </main>
+</body>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    #main{
+        background-color: gray;
+        height: 80rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        
+    }
+    #header {
+        margin: 0.5rem;
+        text-align: center;
+    }
+    #content {
+        margin: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #img-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #image {
+        width: 80vw;
+/*        align-self: center; */
+    }
+    #img-caption {
+        text-align: center;
+    }
+    #tribute-info {
+        padding: 1rem;
+        text-align: justify;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    #footer {
+        /* background-color: blue; */
+        margin: 0.5rem;
+    }
+    @media(min-width: 400px){
+        #image {
+            width: 400px;
+        }
+    }
+</style>
+</html>
